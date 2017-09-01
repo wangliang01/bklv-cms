@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?hsyw75');
-  src:  url('../fonts/icomoon.eot?hsyw75#iefix') format('embedded-opentype'),
-  url('../fonts/icomoon.ttf?hsyw75') format('truetype'),
-  url('../fonts/icomoon.woff?hsyw75') format('woff'),
-  url('../fonts/icomoon.svg?hsyw75#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?gitup1');
+  src:  url('../fonts/icomoon.eot?gitup1#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?gitup1') format('truetype'),
+  url('../fonts/icomoon.woff?gitup1') format('woff'),
+  url('../fonts/icomoon.svg?gitup1#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,71 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.el-icon-my-activity:before {
+  content: "\e900";
+}
+.el-icon-my-album:before {
+  content: "\e901";
+}
+.el-icon-my-comment:before {
+  content: "\e902";
+}
+.el-icon-my-guide-word:before {
+  content: "\e903";
+  color: #f5ce4a;
+}
+.el-icon-my-hotel .path1:before {
+  content: "\e904";
+  color: rgb(221, 221, 221);
+}
+.el-icon-my-hotel .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.el-icon-my-hotel .path3:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.el-icon-my-report:before {
+  content: "\e907";
+}
+.el-icon-my-scenic:before {
+  content: "\e908";
+}
+.el-icon-my-strategy .path1:before {
+  content: "\e909";
+  color: rgb(255, 255, 255);
+}
+.el-icon-my-strategy .path2:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(235, 161, 76);
+}
+.el-icon-my-strategy .path3:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(251, 74, 64);
+}
+.el-icon-my-strategy .path4:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 204, 87);
+}
+.el-icon-my-strategy .path5:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(214, 136, 27);
+}
+.el-icon-my-strategy .path6:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(254, 205, 87);
+}
+.el-icon-my-travel-notes:before {
+  content: "\e90f";
+}
 .el-icon-my-coin-yen:before {
   content: "\e93e";
 }

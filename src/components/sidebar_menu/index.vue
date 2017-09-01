@@ -42,15 +42,15 @@
           </el-submenu>
           <el-submenu index="5">
             <template slot="title"><i class="el-icon-my-list2"></i>内容管理</template>
-            <el-menu-item index="5-1"><i class=""></i>游记管理</el-menu-item>
-            <el-menu-item index="5-2"><i class=""></i>景点管理</el-menu-item>
-            <el-menu-item index="5-3"><i class=""></i>酒店管理</el-menu-item>
-            <el-menu-item index="5-4"><i class=""></i>攻略管理</el-menu-item>
-            <el-menu-item index="5-5"><i class=""></i>导游词管理</el-menu-item>
-            <el-menu-item index="5-6"><i class=""></i>常规活动管理</el-menu-item>
-            <el-menu-item index="5-7"><i class=""></i>评论管理</el-menu-item>
-            <el-menu-item index="5-8"><i class=""></i>相册.影集管理</el-menu-item>
-            <el-menu-item index="5-9"><i class=""></i>举报管理</el-menu-item>
+            <el-menu-item index="5-1"><i class="el-icon-my-travel-notes"></i>游记管理</el-menu-item>
+            <el-menu-item index="5-2"><i class="el-icon-my-scenic"></i>景点管理</el-menu-item>
+            <el-menu-item index="5-3"><span class="el-icon-my-hotel"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>酒店管理</el-menu-item>
+            <el-menu-item index="5-4"><span class="el-icon-my-strategy"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span></span>攻略管理</el-menu-item>
+            <el-menu-item index="5-5"><i class="el-icon-my-guide-word"></i>导游词管理</el-menu-item>
+            <el-menu-item index="5-6"><i class="el-icon-my-activity"></i>常规活动管理</el-menu-item>
+            <el-menu-item index="5-7"><i class="el-icon-my-comment"></i>评论管理</el-menu-item>
+            <el-menu-item index="5-8"><i class="el-icon-my-album"></i>相册·影集管理</el-menu-item>
+            <el-menu-item index="5-9"><i class="el-icon-my-report"></i>举报管理</el-menu-item>
           </el-submenu>
         </el-menu>
       </el-col>
