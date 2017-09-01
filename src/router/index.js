@@ -16,6 +16,7 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
+    name: 'login',
     redirect: "/login"
   },
   // 登录页
@@ -32,12 +33,21 @@ const routes = [
     children: [
       {
         path: '',
+        name: 'activityNewsPush',
         redirect: '/activityNewsPush'
       },
       {
         path: '/activityNewsPush',
+        name: 'activityNewsPush',
         component: resolve => {
           return require(['@/pages/content_manage/trip_circle_manage/activityNewsPush'], resolve)
+        }
+      },
+      {
+        path: '/circleInfoSupervise',
+        name: 'circleInfoSupervise',
+        component: resolve => {
+          return require(['@/pages/content_manage/trip_circle_manage/circleInfoSupervise'], resolve)
         }
       }
     ]

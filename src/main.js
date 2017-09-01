@@ -10,7 +10,8 @@ import { Button, Menu, MenuItem, Submenu, MenuItemGroup,
   Upload, Radio, RadioGroup, Loading, Dialog, Badge, Pagination, Collapse, CollapseItem} from 'element-ui'
 
 import './common/stylus.styl';
-import "./assets/css/icon.css";
+import './assets/css/reset.css'
+import './assets/css/icon.css';
 
 Vue.use(Row);
 Vue.use(Col);

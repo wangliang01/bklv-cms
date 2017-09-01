@@ -22,6 +22,6 @@
     top: 0;
     width: 100%;
     bottom: 0;
-    .header-top-wrapper
+    .header-top-wrapper 
       margin-bottom: 10px;
 </style>
