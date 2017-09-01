@@ -1,0 +1,194 @@
+html, body
+  height 100%
+  margin 0
+  padding 0
+
+ul
+  list-style none
+
+.v_form
+  width 100%
+
+/* 顶部菜单 */
+.header_wrapper
+  box-sizing: border-box
+  width 100%
+  height 55px
+  border-bottom 1px solid #c7c7c7
+  box-shadow 0 1px 3px 0 #dddddd
+  .header_left
+    padding-left 30px
+    text-align left
+    img
+      vertical-align middle
+      margin-right 20px
+      width 36px
+      cursor pointer
+  .header_right
+    padding-right 30px
+    text-align right
+    .accountID
+      margin-left 20px
+      margin-right 20px
+      font-size 14px
+    .wechat_list
+      input
+        text-align end
+        border-color transparent
+
+.wechat_list
+  .el-select-dropdown
+    min-width 150px !important
+    margin-left 65px
+    text-align end
+
+/* 错误提示 */
+error-color = #e7212a
+.errorInfo
+  padding-left 70px
+  text-align: left
+  color error-color
+  font-size 12px
+
+/* 删除标志 */
+.delete
+  color error-color
+  &:hover
+  &:active
+  &:focus
+    color error-color
+
+/* 左选单（导航）*/
+.nav
+  &:nth-child(n)
+    margin-bottom 8px
+    border-top none
+    -webkit-box-shadow -4px 0 0 4px #efefef
+    -moz-box-shadow -4px 0 0 4px #efefef
+    box-shadow -4px 0 0 4px #efefef
+  &:first-child
+    margin-top 4px
+  &:last-child
+    margin-bottom 0
+    height calc(100vh - 55px - 447px)
+    min-height 130px
+    -webkit-box-shadow -4px -4px 0 4px #efefef
+    -moz-box-shadow -4px -4px 0 4px #efefef
+    box-shadow -4px -4px 0 4px #efefef
+
+/* 主页面设置 */
+.title
+  margin 20px
+
+.mp_item
+  float left
+  margin 16px 40px
+  text-align center
+  cursor pointer
+  img
+    height 65px
+  .icons
+    font-size 60px
+  .mp_item_title
+    margin-top 8px
+    font-size 14px
+
+/* 回复设置 */
+border-color = #d9d9d9
+.textarea_input
+  textarea
+    border-color transparent
+    border-bottom-color border-color
+    &:hover
+    &:focus
+      border-color transparent
+      border-bottom-color border-color
+
+/* 页内行与标题 */
+.row
+  margin-bottom 16px
+
+
+/* 提示 */
+.tips
+  vertical-align middle
+  color grey
+
+/* 上传图片 */
+/*图文封面*/
+  .cover-uploader
+    display inline-block
+    margin-top 4px
+    .el-upload
+      position relative
+      overflow hidden
+      border 2px dashed border-color
+      border-radius 0
+      cursor pointer
+      &:hover
+        border-color #20a0ff
+
+  .cover-uploader-icon
+    width 140px
+    height 140px
+    line-height 140px
+    text-align center
+    font-size 30px
+    color #afb7c2
+
+  .cover
+    display block
+    width 140px
+    height 140px
+
+.pic_dialog
+  .el-dialog--small
+    width 735px
+
+.item_dot
+  .el-badge__content
+    background-color lawngreen
+
+
+/* 菜单栏设置 */
+.menu_box
+  border 1px solid border-color
+  padding 20px
+  margin-top 20px
+
+.menu_title
+  font-weight bold
+
+.menu_row
+  display table
+  width 100%
+  margin-bottom 16px
+  .menu_col
+    display table-cell
+    vertical-align middle
+    box-sizing border-box
+    width 70%
+    &:last-child
+      width 30%
+      text-align right
+
+.menu_name
+  width 200px
+  margin-right 20px
+  .el-input__inner
+    font-weight bold
+
+.tag_left
+  float left
+
+.tag_right
+  float right
+  color #8492a6
+  font-size 13px
+
+.menu_btn_float
+  float left
+  margin-right 30px
+
+.text_center
+  text-align center
