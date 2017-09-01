@@ -29,6 +29,18 @@ const routes = [
     path: '/home',
     name: 'index',
     component: INDEX,
+    children: [
+      {
+        path: '',
+        redirect: '/activityNewsPush'
+      },
+      {
+        path: '/activityNewsPush',
+        component: resolve => {
+          return require(['@/pages/content_manage/trip_circle_manage/activityNewsPush'], resolve)
+        }
+      }
+    ]
   },
 
 ];
