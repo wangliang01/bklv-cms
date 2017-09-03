@@ -20,14 +20,14 @@
             <el-input v-model.trim="loginForm.name"></el-input>
           </el-form-item>
 
-          <el-form-item label="密码" prop="password" required>
+          <el-form-item label="密码" prop="password" required @keyup.enter.native="loginIn">
             <el-input v-model="loginForm.password"
                       type="password"
                       auto-complete="off"></el-input>
           </el-form-item>
         </el-form>
 
-        <el-button type="danger" @click="loginIn" class="login_btn">登 录</el-button>
+        <el-button type="danger" @click="loginIn" class="login_btn" @keyup.enter.native="loginIn">登 录</el-button>
       </div>
     </el-col>
   </el-row>
