@@ -66,27 +66,25 @@
         };
         self.$refs.loginForm.validate((valid) => {
           if (valid) {
-            api.network_userLogin(data, (res) => {
-              let info = res.data;
-              if (info.code === 0 && info) {
-                let dd = info.data;
-                // 设置cookie存放token,user_name,user_ID,user_role
-                com.setCookie('token', dd.token);
-                com.setCookie('user_name', dd.user_name);  // 用户名
-                com.setCookie('user_ID', dd.uid);          // 用户id
-                com.setCookie('user_role', dd.role);       // 用户类型
-//                if (dd.role === 1) {                       // 1超级管理员账号
-//                  self.$router.push({'name': '账号管理'});
-//                } else {                                     // 0普通账号
-//                  self.$router.push({'name': '公众号'});
-//                }
-                if (dd.role === 1) {
-                  self.$router.push({
-                    path: '/home'
-                  })
-                }
-              }
+            self.$router.push({
+              path: '/home'
             })
+//            api.network_userLogin(data, (res) => {
+//              let info = res.data;
+//              if (info.code === 0 && info) {
+//                let dd = info.data;
+//                // 设置cookie存放token,user_name,user_ID,user_role
+//                com.setCookie('token', dd.token);
+//                com.setCookie('user_name', dd.user_name);  // 用户名
+//                com.setCookie('user_ID', dd.uid);          // 用户id
+//                com.setCookie('user_role', dd.role);       // 用户类型
+//                if (dd.role === 1) {
+//                  self.$router.push({
+//                    path: '/home'
+//                  })
+//                }
+//              }
+//            })
           } else {
             console.log('error submit!');
             return false;

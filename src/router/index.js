@@ -17,6 +17,7 @@ const routes = [
   {
     path: '/',
     name: 'login',
+
     redirect: "/login"
   },
   // 登录页
@@ -24,6 +25,13 @@ const routes = [
     path: '/login',
     name: 'login',
     component: LOGIN
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: resolve => {
+      return require(['@/pages/home/test'], resolve)
+    }
   },
   // 进入主页
   {
