@@ -6,12 +6,12 @@
           <el-submenu index="activityNewsPush">
             <template slot="title"><i class="el-icon-my-earth"></i>出行圈管理</template>
               <router-link to="/activityNewsPush">
-                <el-menu-item index="activityNewsPush">
+                <el-menu-item index="activityNewsPush"><span class="el-icon-my-push"></span>
                     活动信息推送
                 </el-menu-item>
               </router-link>
               <router-link to="/circleInfoSupervise" active-class="is-active">
-                <el-menu-item index="circleInfoSupervise">
+                <el-menu-item index="circleInfoSupervise"><span class="el-icon-my-supervise"></span>
                     圈子信息监督
                 </el-menu-item>
               </router-link>
@@ -22,26 +22,26 @@
           </el-submenu>
           <el-submenu index="2">
             <template slot="title"><i class="el-icon-my-coin-yen"></i>资金管理</template>
-            <el-menu-item index="2-1"><i class=""></i>提现</el-menu-item>
-            <el-menu-item index="2-2"><i class=""></i>签证资金</el-menu-item>
+            <el-menu-item index="2-1"><span class="el-icon-my-withdraw"></span>提现</el-menu-item>
+            <el-menu-item index="2-2"><span class="el-icon-my-visa"></span>签证资金</el-menu-item>
           </el-submenu>
           <el-submenu index="3">
             <template slot="title"><i class="el-icon-my-stats-bars"></i>数据统计</template>
-            <el-menu-item index="3-1"><i class=""></i>DAU MAU统计</el-menu-item>
-            <el-menu-item index="3-2"><i class=""></i>各个功能PV/UV统计</el-menu-item>
-            <el-menu-item index="3-3"><i class=""></i>流水统计</el-menu-item>
-            <el-menu-item index="3-4"><i class=""></i>各终端统计</el-menu-item>
-            <el-menu-item index="3-5"><i class=""></i>打赏相关统计</el-menu-item>
-            <el-menu-item index="3-6"><i class=""></i>圈子图片.相册.影集统计</el-menu-item>
+            <el-menu-item index="3-1"><span class="el-icon-my-dau"></span>DAU MAU统计</el-menu-item>
+            <el-menu-item index="3-2"><span class="el-icon-my-NewBI-PV_UV"></span>各个功能PV/UV统计</el-menu-item>
+            <el-menu-item index="3-3"><span class="el-icon-my-journal-account"></span>流水统计</el-menu-item>
+            <el-menu-item index="3-4"><span class="el-icon-my-terminal"></span>各终端统计</el-menu-item>
+            <el-menu-item index="3-5"><span class="el-icon-my-reward"></span>打赏相关统计</el-menu-item>
+            <el-menu-item index="3-6"><span class="el-icon-my-picture-album"></span>圈子图片.相册.影集统计</el-menu-item>
           </el-submenu>
           <el-submenu index="4">
             <template slot="title"><i class="el-icon-my-user"></i>用户管理</template>
-            <el-menu-item index="4-1"><i class=""></i>权限管理</el-menu-item>
-            <el-menu-item index="4-2"><i class=""></i>导游审核</el-menu-item>
-            <el-menu-item index="4-3"><i class=""></i>用户操作记录查询</el-menu-item>
+            <el-menu-item index="4-1"><span class="el-icon-my-authority-management"></span>权限管理</el-menu-item>
+            <el-menu-item index="4-2"><span class="el-icon-my-check"></span>导游审核</el-menu-item>
+            <el-menu-item index="4-3"><span class="el-icon-my-records-query"></span>用户操作记录查询</el-menu-item>
           </el-submenu>
           <el-submenu index="5">
-            <template slot="title"><i class="el-icon-my-list2"></i>内容管理</template>
+            <template slot="title"><i class="el-icon-my-list"></i>内容管理</template>
             <el-menu-item index="5-1"><i class="el-icon-my-travel-notes"></i>游记管理</el-menu-item>
             <el-menu-item index="5-2"><i class="el-icon-my-scenic"></i>景点管理</el-menu-item>
             <el-menu-item index="5-3"><span class="el-icon-my-hotel"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>酒店管理</el-menu-item>
