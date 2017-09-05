@@ -57,6 +57,13 @@ const routes = [
         component: resolve => {
           return require(['@/pages/content_manage/trip_circle_manage/circleInfoSupervise'], resolve)
         }
+      },
+      {
+        path: '/guideWordIndex',
+        name: 'guideWordIndex',
+        component: resolve => {
+          return require(['@/pages/content_manage/guide-word/index'], resolve)
+        }
       }
     ]
   },
@@ -70,12 +77,12 @@ const router = new VueRouter({
 });
 
 // 路由钩子
-router.beforeEach((to, from, next) => {
-  if (to.path!=='/login' && !com.getCookie('token')) {
-    next({name: 'login'});
-  } else {
-    next();
-  }
-});
+// router.beforeEach((to, from, next) => {
+//   if (to.path!=='/login' && !com.getCookie('token')) {
+//     next({name: 'login'});
+//   } else {
+//     next();
+//   }
+// });
 
 export default router;

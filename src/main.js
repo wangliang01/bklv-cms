@@ -4,7 +4,7 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 
-import { Button, Menu, MenuItem, Submenu, MenuItemGroup,
+import { Button, Menu, MenuItem, Submenu, MenuItemGroup, DatePicker,
   Switch, Select, Checkbox, CheckboxGroup, Option, Input, Form, FormItem,
   Row, Col, Icon, Popover, Message, MessageBox, Table, TableColumn,
   Upload, Radio, RadioGroup, Loading, Dialog, Badge, Pagination, Collapse, CollapseItem} from 'element-ui'
@@ -22,6 +22,7 @@ Vue.use(Menu);
 Vue.use(MenuItem);
 Vue.use(Submenu);
 Vue.use(MenuItemGroup);
+Vue.use(DatePicker);
 Vue.use(Switch);
 Vue.use(Select);
 Vue.use(Option);
