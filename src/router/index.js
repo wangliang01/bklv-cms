@@ -64,6 +64,13 @@ const routes = [
         component: resolve => {
           return require(['@/pages/content_manage/guide-word/index'], resolve)
         }
+      },
+      {
+        path: '/newCreate',
+        name: 'newCreate',
+        component: resolve => {
+          return require(['@/pages/content_manage/guide-word/newCreate'], resolve)
+        }
       }
     ]
   },

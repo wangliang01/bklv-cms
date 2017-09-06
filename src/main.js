@@ -6,7 +6,8 @@ import router from './router';
 
 import { Button, Menu, MenuItem, Submenu, MenuItemGroup, DatePicker,
   Switch, Select, Checkbox, CheckboxGroup, Option, Input, Form, FormItem,
-  Row, Col, Icon, Popover, Message, MessageBox, Table, TableColumn,
+  Row, Col, Icon, Popover, Message, MessageBox, Table, TableColumn,Breadcrumb,
+  BreadcrumbItem,
   Upload, Radio, RadioGroup, Loading, Dialog, Badge, Pagination, Collapse, CollapseItem} from 'element-ui'
 
 import './common/stylus.styl';
@@ -42,6 +43,8 @@ Vue.use(Badge);
 Vue.use(Pagination);
 Vue.use(Collapse);
 Vue.use(CollapseItem);
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
 
 Vue.component(MessageBox.name, MessageBox);
 Vue.component(Message.name, Message);

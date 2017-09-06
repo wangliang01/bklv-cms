@@ -21,7 +21,7 @@
     </div>
     <div class="guide-word-content">
       <!--新建按钮-->
-      <div class="create fr">新建导游词</div>
+      <div class="create fr" @click="$router.push('/newCreate')">新建导游词</div>
       <!--表格-->
       <el-table
         :data="tableData"
@@ -235,6 +235,7 @@
       color: #fff;
       border-radius: 6px;
       font-size:14px;
+      cursor: pointer;
     .pagination-wrapper
       margin-top: 10px;
 

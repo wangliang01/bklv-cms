@@ -11,4 +11,5 @@ export default {
   network_userLogin: function (params, callback) {
     networkbase.post_function(this.data.userLoginURL, params, {}, callback)
   }
+
 }
