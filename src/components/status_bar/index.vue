@@ -1,12 +1,14 @@
 <template>
   <div class="status-bar clearfix">
-    <div class="status-name fl">{{label}}：</div>
-    <div class="status-wrapper">
-      <el-radio-group v-model="radio" class="fl">
-        <el-radio v-for="(item, index) in radios" :label="item.label" :key="index">{{item.name}}</el-radio>
-      </el-radio-group>
-    </div>
-
+    <el-row :gutter="20">
+      <el-col :span="2"><div class="status-name fl">{{label}}：</div></el-col>
+      <el-col :span="22">
+        <div class="status-wrapper">
+        <el-radio-group v-model="radio" class="fl">
+          <el-radio v-for="(item, index) in radios" :label="item.label" :key="index">{{item.name}}</el-radio>
+        </el-radio-group>
+      </div></el-col>
+    </el-row>
   </div>
 </template>
 <script>

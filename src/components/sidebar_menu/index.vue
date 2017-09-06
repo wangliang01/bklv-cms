@@ -49,7 +49,9 @@
             <!--<el-menu-item index="5-5"><i class="el-icon-my-guide-word"></i>导游词管理</el-menu-item>-->
             <el-submenu index="guideWordIndex">
               <template slot="title"><i class="el-icon-my-guide-word"></i>导游词管理</template>
-              <el-menu-item index="guideWordIndex"><span class="el-icon-my-authority-management"></span>作品管理</el-menu-item>
+              <router-link to="/guideWordIndex" active-class="is-active">
+                <el-menu-item index="guideWordIndex"><span class="el-icon-my-authority-management"></span>作品管理</el-menu-item>
+              </router-link>
               <el-menu-item index="5-7"><i class="el-icon-my-comment"></i>评论管理</el-menu-item>
               <el-menu-item index="6-3"><span class="el-icon-my-records-query"></span>banner管理</el-menu-item>
             </el-submenu>

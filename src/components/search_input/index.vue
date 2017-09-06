@@ -1,7 +1,7 @@
 <template>
   <div class="search">
     <div class="search-box">
-      <input type="text" class="search-input" placeholder="海量优惠商品，年省过万" @click="search" :value="data" :style="inputStyle"/>
+      <input type="text" class="search-input" placeholder="请输入关键词" @click="search" :value="data" :style="inputStyle"/>
       <span class="icon-search" :class="{active: page==='home'}" :style="iconStyle"></span>
       <span class="search-btn" @click="search">搜索</span>
     </div>
